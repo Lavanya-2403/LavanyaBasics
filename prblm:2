@@ -1,0 +1,13 @@
+class Main {
+    public static void main(String[] args) {
+        int a=45;
+       
+       if (a+a+a==180){
+           System.out.println("Triangle can be formed");
+       }
+       else{
+             System.out.println("Triangle cannot be formed");
+       }
+       
+    }
+}
