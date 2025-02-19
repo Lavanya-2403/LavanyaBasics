@@ -11,3 +11,21 @@ class Main {
        
     }
 }
+
+//Getting input from user
+
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+         Scanner num= new Scanner(System.in);
+         int a= num.nextInt();
+       
+       if (a+a+a==180){
+           System.out.println("Triangle can be formed");
+       }
+       else{
+             System.out.println("Triangle cannot be formed");
+       }
+       
+    }
+} 
