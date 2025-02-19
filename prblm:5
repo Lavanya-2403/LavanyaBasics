@@ -8,3 +8,18 @@ class Main {
         }
     }
 }
+//Getting input from user
+
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner num= new Scanner(System.in);
+       
+        int x= num.nextInt();
+        int y=num.nextInt();
+ 
+        for (int i = 1; i <= y; i++) {
+            System.out.println(x);
+        }
+    }
+}
