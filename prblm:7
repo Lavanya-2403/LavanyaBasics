@@ -10,3 +10,20 @@ class Main {
         }
     }
 }
+
+//Getting input from user
+
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner letter= new Scanner(System.in);
+       
+        String a=letter.nextLine();
+        String b=letter.nextLine();
+        String c=a+b;
+        int i=letter.nextInt(); 
+        for (int j = 1; j <= i; j++) {
+            System.out.println(c);
+        }
+    }
+}
